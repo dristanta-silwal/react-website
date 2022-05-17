@@ -56,7 +56,7 @@ const Header = () => (
       {[images.flutter, images.redux, images.myCV].map((circle, index) => (
         <div className="circle-cmp app__flex" key={`circle-${index}`}>
           {/* <a href={circle}>My CV</a> */}
-          <img src={circle} alt="profile_bg" />
+          <img src={circle} alt="profile_bg"  />
         </div>
       ))}
     </motion.div>
